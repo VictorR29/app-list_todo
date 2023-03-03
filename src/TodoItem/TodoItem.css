@@ -1,0 +1,27 @@
+.TodoItem {
+  background-color: #5a6169;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 40px auto 0 auto;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+.TodoItem:hover {
+  box-shadow: 0 0 2px #fff, 0 0 8px #fff, 0 0 5px #0ba9ca, 0 0 30px #0ba9ca,
+    0 0 10px #0ba9ca, 0 0 20px #0ba9ca;
+}
+
+.TodoItem-p {
+  margin: 24px 0 24px 24px;
+  width: calc(100% - 120px);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}

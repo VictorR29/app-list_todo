@@ -1,0 +1,19 @@
+.EmptyTodo__container {
+  width: 90%;
+  max-width: 250px;
+  margin: 10% auto;
+  background-color: #5a6169;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.EmptyTodo__title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+
+.EmptyTodo__text {
+  font-size: 20px;
+}
